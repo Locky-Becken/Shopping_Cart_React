@@ -1,0 +1,16 @@
+.pageContent{
+    width: 100%;
+    height: 600px;
+    background-color: #EAEDED;
+}
+
+.pageContent-container{
+    background-color: ivory;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

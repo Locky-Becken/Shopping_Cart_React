@@ -1,0 +1,93 @@
+.cartPage{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cartPage-container{
+    width: 80%;
+    height: 100vh;
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div-back-shopping{
+    margin: auto 0;
+    color: grey;
+}
+
+.div-back-shopping span{
+    cursor: pointer;
+    color: grey;
+}
+
+.confirm-box{
+    align-self: flex-end;
+}
+
+.total-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.total-box span{
+    color: grey;
+}
+
+.total-box h2{
+    margin-left: 40px;
+    color: orange;
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button button{
+    padding: 15px 30px;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 3px;
+
+    color: white;
+    font-weight: 700;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+td input{
+    width: 50px;
+    text-indent: 8px;
+}
+
+th {
+    background-color: orange;
+    color: white;
+  }
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
